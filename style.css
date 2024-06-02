@@ -249,7 +249,7 @@ ul{list-style: none}
   line-height:35px;
   text-align: center;
   background-color: blue;
-  color: blue;
+  color: white;
   position:absolute;
   -webkit-transition: transform 1s linear;
   transition: transform 1s linear
