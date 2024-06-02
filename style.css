@@ -314,27 +314,27 @@ ul{list-style: none}
 
 #timeline ul li:first-child .cont
 {
-  color: blue
+  color: white
 }
 
 #timeline ul li:nth-child(2) .cont
 {
-  color: blue
+  color: white
 }
 
 #timeline ul li:nth-child(3) .cont
 {
-  color: blue
+  color: white
 }
 
 #timeline ul li:nth-child(4) .cont
 {
-  color: blue
+  color: white
 }
 
 #timeline ul li:last-child .cont
 {
-  color: blue
+  color: white
 }
 
 #timeline ul li:nth-child(odd):hover .cont
