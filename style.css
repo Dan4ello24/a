@@ -193,41 +193,41 @@ ul{list-style: none}
   min-height: 1000px;
   border-top: 0;
   border-left: 4px solid transparent;
-  border-left-color: #7ab800; /* Fullback */
+  border-left-color: blue; /* Fullback */
   -webkit-border-image: -webkit-linear-gradient( 
     top, 
-    #7ab800 0%,
-    #0085c3 35%,
-    #f2af00 50%,
-    #ce1126 65%,
+    blue 0%,
+    blue 35%,
+    blue 50%,
+    blue 65%,
     blue 100%);
   -moz-border-image: -moz-linear-gradient( 
     top, 
-    #7ab800 0%,
-    #0085c3 35%,
-    #f2af00 50%,
-    #ce1126 65%,
+    blue 0%,
+    blue 35%,
+    blue 50%,
+    blue 65%,
     blue 100%);
   -ms-border-image: -ms-linear-gradient( 
     top, 
-    #7ab800 0%,
-    #0085c3 35%,
-    #f2af00 50%,
-    #ce1126 65%,
+    blue 0%,
+    blue 35%,
+    blue 50%,
+    blue 65%,
     blue 100%);
   -o-border-image: -o-linear-gradient( 
     top, 
-    #7ab800 0%,
-    #0085c3 35%,
-    #f2af00 50%,
-    #ce1126 65%,
+    blue 0%,
+    blue 35%,
+    blue 50%,
+    blue 65%,
     blue 100%);
   border-image: linear-gradient(
     top, 
-    #7ab800 0%, 
-    #0085c3 35%, 
-    #f2af00 50%, 
-    #ce1126 65%, 
+    blue 0%, 
+    blue 35%, 
+    blue 50%, 
+    blue 65%, 
     blue 100%);
   border-image-slice: 1;
   position: relative;
@@ -248,8 +248,8 @@ ul{list-style: none}
   font-size: 90%;
   line-height:35px;
   text-align: center;
-  background-color: #7ab800;
-  color: #fff;
+  background-color: blue;
+  color: blue;
   position:absolute;
   -webkit-transition: transform 1s linear;
   transition: transform 1s linear
@@ -257,19 +257,19 @@ ul{list-style: none}
 
 #timeline ul li:nth-child(2):after
 {
-  background-color: #0085c3;
+  background-color: blue
 }
 
 #timeline ul li:nth-child(3):after
 {
   content: "\f11d";
-  background-color: #f2af00;
+  background-color: blue
 }
 
 #timeline ul li:nth-child(4):after
 {
   content: "\f11d";
-  background-color: #ce1126
+  background-color: blue
 }
 
 
@@ -314,22 +314,22 @@ ul{list-style: none}
 
 #timeline ul li:first-child .cont
 {
-  color: #7ab800
+  color: blue
 }
 
 #timeline ul li:nth-child(2) .cont
 {
-  color: #0085c3
+  color: blue
 }
 
 #timeline ul li:nth-child(3) .cont
 {
-  color: #f2af00
+  color: blue
 }
 
 #timeline ul li:nth-child(4) .cont
 {
-  color: #ce1126
+  color: blue
 }
 
 #timeline ul li:last-child .cont
@@ -369,11 +369,11 @@ ul{list-style: none}
   transform: rotateY(175deg)
 }
 
-#timeline ul li:nth-child(2) .cont time{background-color: #0085C3}
+#timeline ul li:nth-child(2) .cont time{background-color: blue}
 
-#timeline ul li:nth-child(3) .cont time{background-color: #F2AF00}
+#timeline ul li:nth-child(3) .cont time{background-color: blue}
 
-#timeline ul li:nth-child(4) .cont time{background-color: #CE1126}
+#timeline ul li:nth-child(4) .cont time{background-color: blue}
 
 #timeline ul li:last-child .cont time{background-color: blue}
 
@@ -431,13 +431,13 @@ ul{list-style: none}
   transition: transform 1s linear
 }
 
-#timeline ul li:first-child .cont{ border-color: #7ab800}
+#timeline ul li:first-child .cont{ border-color: blue}
 
-#timeline ul li:nth-child(2) .cont{ border-color: #0085c3}
+#timeline ul li:nth-child(2) .cont{ border-color: blue}
 
-#timeline ul li:nth-child(3) .cont{ border-color: #f2af00}
+#timeline ul li:nth-child(3) .cont{ border-color: blue}
 
-#timeline ul li:nth-child(4) .cont{ border-color: #ce1126}
+#timeline ul li:nth-child(4) .cont{ border-color: blue}
 
 #timeline ul li:last-child .cont{ border-color: blue}
 
@@ -494,22 +494,22 @@ ul{list-style: none}
 
 #timeline ul li:first-child .cont:before
 {
-  border-color: transparent #7ab800 transparent transparent
+  border-color: transparent blue transparent transparent
 }
 
 #timeline ul li:nth-child(2) .cont:before
 {
-  border-color: transparent transparent transparent #0085c3
+  border-color: transparent transparent transparent blue
 }
 
 #timeline ul li:nth-child(3) .cont:before
 {
-  border-color: transparent #f2af00 transparent transparent
+  border-color: transparent blue transparent transparent
 }
 
 #timeline ul li:nth-child(4) .cont:before
 {
-  border-color: transparent transparent transparent #ce1126
+  border-color: transparent transparent transparent blue
 }
 
 #timeline ul li:last-child .cont:before
